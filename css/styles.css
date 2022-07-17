@@ -58,9 +58,7 @@ ul {
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
-  padding-left: 15px;
-
-  /* outline: 1px solid tomato; */
+  padding-left: 15px;  
 }
 
 /* хедер */
@@ -97,10 +95,6 @@ ul {
   display: flex;
   margin-left: 93px;
 }
-
-/* .site-nav .item {
-  outline: 1px solid red;
-} */
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -209,7 +203,7 @@ ul {
   color: var(--white-color);
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -226,10 +220,8 @@ ul {
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
-  padding-left: 32px;
-  display: inline-block;
-  min-width: 200px;
-  text-align: center;
+  padding-left: 32px;  
+  min-width: 200px;  
   margin-right: auto;
   margin-left: auto;
 
@@ -322,21 +314,34 @@ visually-hidden {
   padding-bottom: 94px;
 }
 
-.list-work {
+.title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.section-work__list {
   display: flex;
 }
 
-.list-work .item {
+.section-work__item {
   margin-right: 30px;
-
   position: relative;
 }
 
-.list-work .item:last-child {
+.section-work__item :last-child {
   margin-right: 0;
 }
 
-.text-work {
+.section-work__img {
+  display: block;
+  height: auto;
+}
+
+.section-work__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -355,19 +360,9 @@ visually-hidden {
   width: 100%;
 }
 
-img {
-  display: block;
-  height: auto;
-}
 
-.title {
-  margin-bottom: 50px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.62;
-  text-align: center;
-}
+
 
 /* наша команда */
 
